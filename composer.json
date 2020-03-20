@@ -1,0 +1,22 @@
+{
+	"name": "phenobytes/php-website",
+	"description": "phenobytes php website template",
+	"type": "template",
+	"require": {
+		"phenobytes/php-framework": "@dev"
+	},
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "monstm",
+			"email": "monstm@gmail.com"
+		}
+	],
+	"minimum-stability": "stable",
+	"repositories": [
+		{
+		  "type": "path",
+		  "url": "../php-framework"
+		}
+	]
+}
