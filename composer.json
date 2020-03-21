@@ -3,7 +3,7 @@
 	"description": "phenobytes php website template",
 	"type": "template",
 	"require": {
-		"phenobytes/php-framework": "@dev",
+		"phenobytes/php-framework": "^1.0",
 		"akrabat/ip-address-middleware": "^1.0",
 		"tuupola/cors-middleware": "^1.1"
 	},
@@ -12,13 +12,6 @@
 		{
 			"name": "monstm",
 			"email": "monstm@gmail.com"
-		}
-	],
-	"minimum-stability": "stable",
-	"repositories": [
-		{
-		  "type": "path",
-		  "url": "../php-framework"
 		}
 	]
 }

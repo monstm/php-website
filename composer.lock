@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c3c2a2611a6d797ee1bd0c6db6111df3",
+    "content-hash": "967748f2d596712e67cfb162f999c58a",
     "packages": [
         {
             "name": "akrabat/ip-address-middleware",
@@ -214,11 +214,17 @@
         },
         {
             "name": "phenobytes/php-framework",
-            "version": "dev-master",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/monstm/php-framework.git",
+                "reference": "7edc1ba9cd7b2912e622f75097316e0ca8c9c23e"
+            },
             "dist": {
-                "type": "path",
-                "url": "../php-framework",
-                "reference": "623a776d0dad1bde10ac7540c99da39ddf8664a8"
+                "type": "zip",
+                "url": "https://api.github.com/repos/monstm/php-framework/zipball/7edc1ba9cd7b2912e622f75097316e0ca8c9c23e",
+                "reference": "7edc1ba9cd7b2912e622f75097316e0ca8c9c23e",
+                "shasum": ""
             },
             "require": {
                 "psr/http-factory": "^1.0",
@@ -233,6 +239,7 @@
                     "Phenobytes\\": "Phenobytes"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
@@ -242,7 +249,8 @@
                     "email": "monstm@gmail.com"
                 }
             ],
-            "description": "phenobytes php framework"
+            "description": "phenobytes php framework",
+            "time": "2020-03-21T20:22:49+00:00"
         },
         {
             "name": "psr/container",
@@ -1106,9 +1114,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "phenobytes/php-framework": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
