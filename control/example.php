@@ -19,7 +19,6 @@
 
 			$Response->getBody()->write($view);
 			return $Response->withStatus(200);
-
 		}
 
 		public function post_index($Request, $Response, $Arguments){

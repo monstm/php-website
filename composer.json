@@ -3,9 +3,7 @@
 	"description": "phenobytes php website template",
 	"type": "template",
 	"require": {
-		"phenobytes/php-framework": "^1.0",
-		"akrabat/ip-address-middleware": "^1.0",
-		"tuupola/cors-middleware": "^1.1"
+		"phenobytes/php-framework": "^1.0"
 	},
 	"license": "proprietary",
 	"authors": [
