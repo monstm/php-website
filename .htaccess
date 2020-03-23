@@ -1,6 +1,7 @@
 RewriteEngine On
 RewriteBase /
 
+# bug fixed header Authorization
 SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
 
 RewriteCond %{ENV:REDIRECT_STATUS} ^$
